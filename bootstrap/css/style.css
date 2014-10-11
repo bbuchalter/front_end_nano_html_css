@@ -37,12 +37,3 @@ header {
 .portfolio-item {
     text-align: center;
 }
-
-
-img {
-    width: 100%;
-}
-
-img.headshot {
-    border-radius: 50%;
-}
