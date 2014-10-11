@@ -5,7 +5,7 @@
 ### [Brian Buchalter's Portfolio Project](https://github.com/bbuchalter/front_end_nano_html_css/tree/master/bootstrap)
 
 ### Resources Used
-* Intro to HTML and CSS course @ Udacity
+* [Intro to HTML and CSS course @ Udacity](https://www.udacity.com/course/ud304)
 * https://developer.mozilla.org/en-US/
 * http://getbootstrap.com/css/
 * http://getbootstrap.com/javascript/#modals
