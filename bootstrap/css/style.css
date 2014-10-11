@@ -6,7 +6,19 @@ body {
 h1.name {
     font-weight: 300;
     margin-bottom: 0;
-    font-size: 72px;
+    font-size: 50px;
+}
+
+@media only screen and (min-width:750px) {
+    h1.name {
+        font-size: 72px;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width:640px) {
+    img.headshot {
+        height: 220px;
+    }
 }
 
 h2.job-title {
