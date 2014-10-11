@@ -43,3 +43,11 @@ h4.job-title {
 header {
     border-bottom: 5px solid #BCBBBB;
 }
+
+.portfolio-modal {
+    cursor: pointer;
+}
+
+.portfolio-modal:hover {
+    border: 1px solid #BCBBBB;
+}

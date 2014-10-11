@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Brian Buchalter: Lead Full Stack Developer</title>
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -42,7 +44,9 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-4 text-center">
+    <div class="col-md-4 text-center portfolio-modal"
+         data-toggle="modal"
+         data-target="#tommyjohn-experience-modal">
       <img alt="Brian Buchalter, Lead Full Stack Developer at Tommy John"
            class="img-responsive"
            src="images/tommyjohn_contributions.png">
@@ -50,10 +54,11 @@
       <h4 class="job-title">Lead Full Stack Developer</h4>
 
       <div class="job-dates">Jan 2013-Sept 2013, April 2014-Present</div>
-      <a href="http://www.tommyjohnwear.com"
-         class="portfolio-url">Tommy John</a>
+      Tommy John
     </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-4 text-center portfolio-modal"
+         data-toggle="modal"
+         data-target="#trisano-experience-modal">
       <img alt="Brian Buchalter, Lead Full Stack Developer at Trisano"
            class="img-responsive"
            src="images/trisano_contributions.png">
@@ -61,10 +66,11 @@
       <h4 class="job-title">Lead Full Stack Developer</h4>
 
       <div class="job-dates">March 2012-Jan 2013</div>
-      <a href="http://csinitiative.com/products/trisano/features/"
-         class="portfolio-url">Trisano</a>
+      Trisano
     </div>
-    <div class="col-md-4 text-center">
+    <div class="col-md-4 text-center portfolio-modal"
+          data-toggle="modal"
+          data-target="#alexcooper-experience-modal">
       <img alt="Brian Buchalter, Lead Full Stack Developer at Alex Cooper Real Estate"
            class="img-responsive"
            src="images/alexcooper_contributions.png">
@@ -72,8 +78,73 @@
       <h4 class="job-title">Lead Full Stack Developer</h4>
 
       <div class="job-dates">Jan 2006-Dec 2013</div>
-      <a href="http://realestate.alexcooper.com/upcoming/featured/"
-         class="portfolio-url">Alex Cooper Real Estate</a>
+      Alex Cooper Real Estate
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="tommyjohn-experience-modal" tabindex="-1" role="dialog" aria-labelledby="tommyjohn-modal-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="tommyjohn-modal-title">Leader Full Stack Developer @</h1>
+        <h2 class="modal-title">
+          <a href="http://www.tommyjohnwear.com">Tommy John</a>
+        </h2>
+        <div class="job-dates">Jan 2006-Dec 2013</div>
+      </div>
+      <div class="modal-body">
+        <img alt="Brian Buchalter, Lead Full Stack Developer at Tommy John"
+             class="img-responsive"
+             src="images/tommyjohn_contributions.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="trisano-experience-modal" tabindex="-1" role="dialog" aria-labelledby="trisano-modal-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="trisano-modal-title">Leader Full Stack Developer @</h1>
+        <h2 class="modal-title">
+          <a href="http://csinitiative.com/products/trisano/features/">Trisano</a>
+        </h2>
+        <div class="job-dates">March 2012-Jan 2013</div>
+      </div>
+      <div class="modal-body">
+        <img alt="Brian Buchalter, Lead Full Stack Developer at Trisano"
+             class="img-responsive"
+             src="images/trisano_contributions.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="alexcooper-experience-modal" tabindex="-1" role="dialog" aria-labelledby="alexcooper-modal-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="alexcooper-modal-title">Leader Full Stack Developer @</h1>
+        <h2 class="modal-title">
+          <a href="http://realestate.alexcooper.com/upcoming/featured/">Alex Cooper Real Estate</a>
+        </h2>
+        <div class="job-dates">Jan 2006-Dec 2013</div>
+      </div>
+      <div class="modal-body">
+        <img alt="Brian Buchalter, Lead Full Stack Developer at Alex Cooper Real Estate"
+             class="img-responsive"
+             src="images/alexcooper_contributions.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
