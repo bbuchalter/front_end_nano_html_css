@@ -2,7 +2,7 @@
 
 ## Intro to HTML and CSS Project
 
-### [Brian Buchalter's Portfolio Project](#)
+### [Brian Buchalter's Portfolio Project](https://github.com/bbuchalter/front_end_nano_html_css/tree/master/bootstrap)
 
 ### Resources Used
 * Intro to HTML and CSS course @ Udacity
