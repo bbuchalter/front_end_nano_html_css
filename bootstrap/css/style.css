@@ -13,6 +13,10 @@ h1.name {
     h1.name {
         font-size: 72px;
     }
+    .portfolio-modal {
+        margin-bottom: 30px;
+        border-bottom: 1px solid #BCBBBB;
+    }
 }
 
 @media only screen and (orientation:landscape) and (max-width:640px) {
@@ -32,6 +36,7 @@ h3 {
     font-size: 32px;
     border-bottom: 1px solid #BCBBBB;
     margin-bottom: 0;
+    margin-top: 40px;
 }
 
 h4.job-title {
@@ -46,6 +51,9 @@ header {
 
 .portfolio-modal {
     cursor: pointer;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #BCBBBB;
+    border-top: 1px solid #BCBBBB;
 }
 
 .portfolio-modal:hover {
